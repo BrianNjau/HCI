@@ -16,11 +16,13 @@ class ProductController extends Controller
     public function index()
     {
         //
+        $product = DB::select('select * from products');
+        //return view('/listProducts',['product'=>$product]);
         //$products = Product::all();
         //return view('products.index', compact('products'));
         //$product =DB::select('select * from products');
-       // return \View::make('products.listProducts');
-      return \View::make('products.product_insert');
+       return view('products.listProducts',['product'=>$product]);
+     // return \View::make('products.product_insert');
       
     }
 
@@ -33,7 +35,7 @@ class ProductController extends Controller
     {
         //
         return view('products.product_insert');
-        return view('products.edit');
+        //return view('products.edit');
     }
 
     /**
@@ -57,6 +59,7 @@ class ProductController extends Controller
     public function show($id)
     {
         //
+        
     }
 
     /**
@@ -68,8 +71,8 @@ class ProductController extends Controller
     public function edit($id)
     {
         //
-        $products = product::find($id);
-        return view('products.edit', compact('product'));
+        //$product =DB::select('select * from products');
+        //return view ('/listProducts');
     }
 
     public function getProducts()
