@@ -23,6 +23,7 @@
 <body>
     <div class="app">
     @include('inc.navbar')
+
         <div class="container-shop">
             <header>
                 <h1>Shop</h1>
@@ -47,7 +48,7 @@
                     </div>          
                 @endforeach
             </main>
-            <footer><h3>This is the footer</h3></footer>
         </div>
+        <footer>@include('inc.footer')</footer>
     </div>
 </body>

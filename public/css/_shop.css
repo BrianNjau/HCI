@@ -8,13 +8,32 @@ body {
   margin: 0 auto;
   grid-gap: 20px;
   grid-template-columns: 1fr 4fr;
+  position: relative;
+}
+
+.container-shop .product-bottom {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+}
+
+.container-shop span {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .container-shop main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(5, 350px);
+  grid-template-rows: repeat(5, 400px);
   grid-gap: 20px;
+}
+
+.container-shop img {
+  height: auto;
+  width: auto;
 }
 
 .container-shop footer {

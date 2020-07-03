@@ -12,16 +12,28 @@ body{
     margin: 0 auto;
     grid-gap:20px;
     grid-template-columns: 1fr 4fr;
+    position: relative;
 
-
-
+    .product-bottom{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        text-decoration-style: double;
+    }
+    span{
+        text-align: center; 
+        margin-bottom: 0;
+    }
     main{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(5, 350px);
+        grid-template-rows: repeat(5, 400px);
         grid-gap: 20px;
     }
-
+    img{
+        height:auto;
+        width:auto;
+    }
     footer{
         padding:20px;
         background:#ccc;
