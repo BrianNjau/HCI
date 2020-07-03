@@ -27,5 +27,7 @@ class PagesController extends Controller
     {
         return view('products.edit');
     }
-
+    public function about(){
+    return view('pages.about')
+    }
 }

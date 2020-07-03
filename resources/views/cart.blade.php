@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.portal')
  
 @section('title', 'Cart')
  
