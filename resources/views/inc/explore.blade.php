@@ -19,7 +19,7 @@
 										<div class="banner_2_title">High Tensile Strength Gate</div>
 										<div class="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</div>
 										<div class="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-										<div class="button banner_2_button"><a href="#">Explore</a></div>
+										<div class="button banner_2_button"><a href="{{url('buy')}}">Explore</a></div>
 									</div>
 									
 								</div>
@@ -44,7 +44,7 @@
 										<div class="banner_2_title">Garage Gates</div>
 										<div class="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</div>
 										<div class="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-										<div class="button banner_2_button"><a href="#">Explore</a></div>
+										<div class="button banner_2_button"><a href="{{url('buy')}}">Explore</a></div>
 									</div>
 									
 								</div>
@@ -69,7 +69,7 @@
 										<div class="banner_2_title">Driveway Gates</div>
 										<div class="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</div>
 										<div class="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-										<div class="button banner_2_button"><a href="#">Explore</a></div>
+										<div class="button banner_2_button"><a href="{{url('buy')}}">Explore</a></div>
 									</div>
 									
 								</div>

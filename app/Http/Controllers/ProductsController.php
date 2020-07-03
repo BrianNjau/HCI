@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 use DB;
 use Illuminate\Http\Request;
 use App\Product;
+use View;
+
 class ProductsController extends Controller
 {
     //
@@ -11,9 +13,17 @@ class ProductsController extends Controller
     {
         $product = DB::select('select * from product2s');
  
+        
         return view('products',['product'=>$product]);
+        
+        
     }
  
+
+
+
+
+
     public function cart()
     {
         return view('cart');
