@@ -15,30 +15,17 @@
 								</div>
 
 								<ul class="cat_menu">
-									<li><a href="#">Category<i class="fas fa-chevron-right ml-auto"></i></a></li>
-									<li><a href="#">Category<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Iron<i class="fas fa-chevron-right ml-auto"></i></a></li>
+									<li><a href="#">Ornamental<i class="fas fa-chevron-right"></i></a></li>
 									<li class="hassubs">
-										<a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
-										<ul>
-											<li class="hassubs">
-												<a href="#">Menu Item<i class="fas fa-chevron-right"></i></a>
-												<ul>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-												</ul>
-											</li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-										</ul>
+										<a href="#">Shutter Door<i class="fas fa-chevron-right"></i></a>
+										
 									</li>
-									<li><a href="#">Category<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Category<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Category<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Category<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Category<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Stainless Steel<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Wooden<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Drive Inn<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Electronic<i class="fas fa-chevron-right"></i></a></li>
+									<li><a href="#">Fold<i class="fas fa-chevron-right"></i></a></li>
 									<li><a href="#">Accessories<i class="fas fa-chevron-right"></i></a></li>
 								</ul>
 							</div>
@@ -50,38 +37,13 @@
 									<li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
 									<li class="hassubs">
 										<a href="#">Shop<i class="fas fa-chevron-down"></i></a>
-										<ul>
-											<li>
-												<a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
-												<ul>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-												</ul>
-											</li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-										</ul>
+										
 									</li>
 									<li class="hassubs">
-										<a href="#">Featured Brands<i class="fas fa-chevron-down"></i></a>
-										<ul>
-											<li>
-												<a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
-												<ul>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-												</ul>
-											</li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-										</ul>
+										<a href="#">Specials<i class="fas fa-chevron-down"></i></a>			
 									</li>
 									
-									<li><a href="#">Categories<i class="fas fa-chevron-down"></i></a></li>
+									<li><a href="#">About<i class="fas fa-chevron-down"></i></a></li>
 									<li><a href="contact.html">Contact<i class="fas fa-chevron-down"></i></a></li>
 								</ul>
 							</div>
@@ -129,34 +91,15 @@
 									<a href="#">Home<i class="fa fa-angle-down"></i></a>
 								</li>
 								<li class="page_menu_item has-children">
-									<a href="#">Category<i class="fa fa-angle-down"></i></a>
-									<ul class="page_menu_selection">
-										<li><a href="#">Category<i class="fa fa-angle-down"></i></a></li>
-										<li class="page_menu_item has-children">
-											<a href="#">Menu Item<i class="fa fa-angle-down"></i></a>
-											<ul class="page_menu_selection">
-												<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-												<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-												<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-												<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											</ul>
-										</li>
-										<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-									</ul>
+									<a href="#">Shop<i class="fa fa-angle-down"></i></a>
+								
 								</li>
 								<li class="page_menu_item has-children">
-									<a href="#">Featured Brands<i class="fa fa-angle-down"></i></a>
-									<ul class="page_menu_selection">
-										<li><a href="#">Featured Brands<i class="fa fa-angle-down"></i></a></li>
-										<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-									</ul>
+									<a href="#">Specials<i class="fa fa-angle-down"></i></a>
+								
 								</li>
 								
-								<li class="page_menu_item"><a href="">Shop<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item"><a href="">About<i class="fa fa-angle-down"></i></a></li>
 								<li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
 							</ul>
 							

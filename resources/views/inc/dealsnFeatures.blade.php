@@ -18,10 +18,10 @@
 								
 								<!-- Deals Item -->
 								<div class="owl-item deals_item">
-									<div class="deals_image"><img src="images/deals.png" alt=""></div>
+									<div class="deals_image"><img src="{{ asset('assets/images/dealgate.jpg')}}" alt=""></div>
 									<div class="deals_content">
 										<div class="deals_info_line d-flex flex-row justify-content-start">
-											<div class="deals_item_category"><a href="#">Gate</a></div>
+											<div class="deals_item_category"><a href="#">Previously</a></div>
 											<div class="deals_item_price_a ml-auto">$300</div>
 										</div>
 										<div class="deals_info_line d-flex flex-row justify-content-start">
@@ -62,20 +62,20 @@
 
 								<!-- Deals Item -->
 								<div class="owl-item deals_item">
-									<div class="deals_image"><img src="images/deals.png" alt=""></div>
+									<div class="deals_image"><img src="{{ asset('assets/images/gatedeal2.jpg')}}" alt=""></div>
 									<div class="deals_content">
 										<div class="deals_info_line d-flex flex-row justify-content-start">
-											<div class="deals_item_category"><a href="#">Gate</a></div>
-											<div class="deals_item_price_a ml-auto">$300</div>
+											<div class="deals_item_category"><a href="#">Previously</a></div>
+											<div class="deals_item_price_a ml-auto">$250</div>
 										</div>
 										<div class="deals_info_line d-flex flex-row justify-content-start">
-											<div class="deals_item_name">Golden Ye Gate</div>
-											<div class="deals_item_price ml-auto">$225</div>
+											<div class="deals_item_name">Gate Canopy Accessory</div>
+											<div class="deals_item_price ml-auto">$100</div>
 										</div>
 										<div class="available">
 											<div class="available_line d-flex flex-row justify-content-start">
-												<div class="available_title">Available: <span>6</span></div>
-												<div class="sold_title ml-auto">Already sold: <span>28</span></div>
+												<div class="available_title">Available: <span>10</span></div>
+												<div class="sold_title ml-auto">Already sold: <span>40</span></div>
 											</div>
 											<div class="available_bar"><span style="width:17%"></span></div>
 										</div>
@@ -106,20 +106,20 @@
 
 								<!-- Deals Item -->
 								<div class="owl-item deals_item">
-									<div class="deals_image"><img src="images/deals.png" alt=""></div>
+									<div class="deals_image"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 									<div class="deals_content">
 										<div class="deals_info_line d-flex flex-row justify-content-start">
-											<div class="deals_item_category"><a href="#">Accessory</a></div>
-											<div class="deals_item_price_a ml-auto">$300</div>
+											<div class="deals_item_category"><a href="#">Previously</a></div>
+											<div class="deals_item_price_a ml-auto">$500</div>
 										</div>
 										<div class="deals_info_line d-flex flex-row justify-content-start">
-											<div class="deals_item_name">Goat Emblem</div>
-											<div class="deals_item_price ml-auto">$225</div>
+											<div class="deals_item_name">YRN Gate Furnishing</div>
+											<div class="deals_item_price ml-auto">$350</div>
 										</div>
 										<div class="available">
 											<div class="available_line d-flex flex-row justify-content-start">
-												<div class="available_title">Available: <span>6</span></div>
-												<div class="sold_title ml-auto">Already sold: <span>28</span></div>
+												<div class="available_title">Available: <span>2</span></div>
+												<div class="sold_title ml-auto">Already sold: <span>35</span></div>
 											</div>
 											<div class="available_bar"><span style="width:17%"></span></div>
 										</div>
@@ -178,7 +178,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -203,7 +203,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -228,7 +228,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -253,7 +253,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -278,7 +278,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -303,7 +303,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -328,7 +328,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -353,7 +353,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -378,7 +378,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -403,7 +403,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -428,7 +428,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -453,7 +453,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -478,7 +478,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -503,7 +503,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -528,7 +528,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -553,7 +553,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Gate</a></div></div>
@@ -587,7 +587,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -612,7 +612,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -637,7 +637,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -662,7 +662,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -687,7 +687,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -712,7 +712,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -737,7 +737,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -762,7 +762,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -787,7 +787,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -812,7 +812,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -837,7 +837,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -862,7 +862,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -887,7 +887,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -912,7 +912,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -937,7 +937,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -962,7 +962,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">More Gates</a></div></div>
@@ -996,7 +996,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1021,7 +1021,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1046,7 +1046,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1071,7 +1071,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1096,7 +1096,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1121,7 +1121,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1146,7 +1146,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1171,7 +1171,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1196,7 +1196,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1221,7 +1221,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates...</a></div></div>
@@ -1246,7 +1246,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1271,7 +1271,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/gatefurnish.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1296,7 +1296,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product4.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1321,7 +1321,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product6.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1346,7 +1346,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product2.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>
@@ -1371,7 +1371,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{ asset('assets/images/product1.jpg')}}" alt=""></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Even More Gates..</a></div></div>

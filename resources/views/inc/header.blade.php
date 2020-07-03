@@ -22,12 +22,12 @@
 												<span class="custom_dropdown_placeholder clc">All Categories</span>
 												<i class="fas fa-chevron-down"></i>
 												<ul class="custom_list clc">
-													<li><a class="clc" href="#">All Categories</a></li>
-													<li><a class="clc" href="#">Category</a></li>
-													<li><a class="clc" href="#">Category</a></li>
-													<li><a class="clc" href="#">Category</a></li>
-													<li><a class="clc" href="#">Category</a></li>
-													<li><a class="clc" href="#">Category</a></li>
+													<li><a class="clc" href="#">Iron</a></li>
+													<li><a class="clc" href="#">Ornamental</a></li>
+													<li><a class="clc" href="#">Shutter Door</a></li>
+													<li><a class="clc" href="#">Sliding</a></li>
+													<li><a class="clc" href="#">Stainless Steel</a></li>
+													<li><a class="clc" href="#">Wooden</a></li>
 												</ul>
 											</div>
 										</div>
