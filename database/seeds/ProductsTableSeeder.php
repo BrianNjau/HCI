@@ -17,7 +17,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1',
+            'category' => 'Iron',
             ]);
 
         Product::create([
@@ -26,7 +26,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '10000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
             ]);
 
         Product::create([
@@ -35,7 +35,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '29900',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
             ]);
         Product::create([
             'name' => 'Iron gate 4',
@@ -43,7 +43,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
         ]);
         Product::create([
             'name' => 'Iron gate 5',
@@ -51,7 +51,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
         ]);
         Product::create([
             'name' => 'Iron gate 6',
@@ -59,7 +59,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
         ]);
         Product::create([
             'name' => 'Iron gate 7',
@@ -67,7 +67,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
         ]);
         Product::create([
             'name' => 'Iron gate 8',
@@ -75,7 +75,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
         ]);
         Product::create([
             'name' => 'Iron gate 9',
@@ -83,7 +83,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Iron royal gate with a carvature top suiable for backyard enterances',
             'price' => '24000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '1'
+            'category' => 'Iron'
         ]);
         Product::create([
             'name' => 'Wooden gate 1',
@@ -91,7 +91,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Wooden gate with a carvature top suiable for the fronyard',
             'price' => '84000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '2'
+            'category' => 'Wooden gate'
         ]);
         Product::create([
             'name' => 'Wooden gate 2',
@@ -99,7 +99,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Wooden gate with a carvature top suiable for the fronyard',
             'price' => '84000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '2'
+            'category' => 'Wooden gate'
         ]);
         Product::create([
             'name' => 'Wooden gate 3',
@@ -107,7 +107,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Wooden gate with a carvature top suiable for the fronyard',
             'price' => '84000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '2'
+            'category' => 'Wooden gate'
         ]);
         Product::create([
             'name' => 'Wooden gate 4',
@@ -115,7 +115,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Wooden gate with a carvature top suiable for the fronyard',
             'price' => '84000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '2'
+            'category' => 'Wooden gate'
         ]);
         Product::create([
             'name' => 'Wooden gate 5',
@@ -123,7 +123,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Wooden gate with a carvature top suiable for the fronyard',
             'price' => '84000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '2'
+            'category' => 'Wooden gate'
         ]);
         Product::create([
             'name' => 'Wooden gate 6',
@@ -131,7 +131,7 @@ class ProductsTableSeeder extends Seeder
             'details' => 'Wooden gate with a carvature top suiable for the fronyard',
             'price' => '84000',
             'description' => 'Dolor amet incididunt cillum eiusmod. Consequat mollit culpa non labore eiusmod. Reprehenderit minim aliquip commodo voluptate do voluptate incididunt ex.',
-            'category_id' => '2'
+            'category' => 'Wooden gate'
         ]);   
     }
 }

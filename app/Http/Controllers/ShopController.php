@@ -16,10 +16,10 @@ class ShopController extends Controller
     public function index()
     {
         if(request()->category){
-            $products = Product::with('categories')->whereHas('categories', function($query){
-            $query->where('slug', request()->category);
-            })->get();
-            
+            // $products = Product::with('categories')->whereHas('categories', function($query){
+            // $query->where('slug', request()->category);
+            // })->get();
+            $products =DB::select('select * from products where category='.(request()->category)).')';
             $categories = Category::all;
         }else{
             $products = Product::inRandomOrder()->get();
