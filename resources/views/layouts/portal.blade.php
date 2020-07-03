@@ -25,12 +25,14 @@
 
         @include('inc.topbar')
         @include('inc.header')
+    
         <main class="py-4">
             <div class="container">
             @yield('content')
         </div>
         </main>
     </div>
+     @include('inc.footer')
 </body>
 </html>
 

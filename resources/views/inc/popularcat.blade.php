@@ -23,7 +23,7 @@
 							<!-- Popular Categories Item -->
 							<div class="owl-item">
 								<div class="popular_category d-flex flex-column align-items-center justify-content-center">
-									<div class="popular_category_image"><img src="images/popular_1.png" alt=""></div>
+									<div class="popular_category_image"><img src="{{ asset('assets/images/gateicon.png')}}" alt=""></div>
 									<div class="popular_category_text">Gates</div>
 								</div>
 							</div>
@@ -31,7 +31,7 @@
 							<!-- Popular Categories Item -->
 							<div class="owl-item">
 								<div class="popular_category d-flex flex-column align-items-center justify-content-center">
-									<div class="popular_category_image"><img src="images/popular_2.png" alt=""></div>
+									<div class="popular_category_image"><img src="{{ asset('assets/images/dooricon.png')}}" alt=""></div>
 									<div class="popular_category_text">Doors</div>
 								</div>
 							</div>
@@ -39,7 +39,7 @@
 							<!-- Popular Categories Item -->
 							<div class="owl-item">
 								<div class="popular_category d-flex flex-column align-items-center justify-content-center">
-									<div class="popular_category_image"><img src="images/popular_3.png" alt=""></div>
+									<div class="popular_category_image"><img src="{{ asset('assets/images/hingeicon.png')}}" alt=""></div>
 									<div class="popular_category_text">Hinges</div>
 								</div>
 							</div>
@@ -47,7 +47,7 @@
 							<!-- Popular Categories Item -->
 							<div class="owl-item">
 								<div class="popular_category d-flex flex-column align-items-center justify-content-center">
-									<div class="popular_category_image"><img src="images/popular_4.png" alt=""></div>
+									<div class="popular_category_image"><img src="{{ asset('assets/images/paletteicon.png')}}" alt=""></div>
 									<div class="popular_category_text">Palettes</div>
 								</div>
 							</div>
@@ -55,7 +55,7 @@
 							<!-- Popular Categories Item -->
 							<div class="owl-item">
 								<div class="popular_category d-flex flex-column align-items-center justify-content-center">
-									<div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
+									<div class="popular_category_image"><img src="{{ asset('assets/images/accessicon.png')}}" alt=""></div>
 									<div class="popular_category_text">Accessories</div>
 								</div>
 							</div>

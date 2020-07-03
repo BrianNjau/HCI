@@ -5,7 +5,7 @@
             <!-- Single Banner  -->
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-banner">
-                    <img src="https://via.placeholder.com/600x370" alt="#">
+                    <img src="{{ asset('assets/images/bannergate.jpg')}}" alt="#">
                     <div class="content">
                         <p>Featured Gate Collection</p>
                         <h3>Premium Gate <br> collection</h3>

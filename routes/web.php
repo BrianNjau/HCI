@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', 'PagesController@index');
 Route::get('/login', 'PagesController@login');
-
+//Route::get('/listProducts', 'CartController@shop')->name('listProducts');
 Route::get('/listProducts', 'ProductController@index');
+/*Route::get('/listProducts', function(){
+    $products = DB::table('products')->get();
+    return view('/listProducts', ['product'=>$products]);
+});*/
 Route::get('/product_insert', 'ProductController@index')->name('product_insert');
 Route::post('users/{id}', function ($id) {
     
@@ -25,3 +29,15 @@ Route::post('users/{id}', function ($id) {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+Route::get('/buy', 'ProductsController@index');
+ 
+Route::get('cart', 'ProductsController@cart');
+ 
+Route::get('add-to-cart/{id}', 'ProductsController@addToCart');
+Route::patch('update-cart', 'ProductsController@update');
+ 
+Route::delete('remove-from-cart', 'ProductsController@remove');

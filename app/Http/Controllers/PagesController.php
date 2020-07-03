@@ -27,11 +27,14 @@ class PagesController extends Controller
     {
         return view('products.edit');
     }
-    public function about(){
+  
+    public function about()
+    {
     return view('pages.about')
     }
     
-    public function categories(){
+    public function categories()
+    {
     return view('pages.categories')
     }
 }
