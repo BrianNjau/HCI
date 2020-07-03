@@ -16,8 +16,6 @@
     <script src="https://kit.fontawesome.com/d2773e0767.js" crossorigin="anonymous"></script>  
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/gate.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.css') }}">
      <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
