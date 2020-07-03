@@ -1,0 +1,44 @@
+body {
+  margin: 40px;
+}
+
+.container-shop {
+  display: grid;
+  width: 1024px;
+  margin: 0 auto;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 4fr;
+}
+
+.container-shop main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 350px);
+  grid-gap: 20px;
+}
+
+.container-shop footer {
+  padding: 20px;
+  background: #ccc;
+  grid-column: 1/3;
+}
+
+.container-shop header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.container-shop div {
+  padding: 20px;
+}
+
+.container-shop .sidebar {
+  background-color: #ccc;
+}
+
+.container-shop .sidebar li {
+  padding: 10px;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
